@@ -13,17 +13,13 @@ const UserContext = React.createContext();
 function userReducer(state, action) {
   switch (action.type) {
     case 'signin': {
-    //   console.log('DISPATCH: payload:', action.payload, 'state:', state);
-    //   const {email: inputEmail, password: inputPassword} = action.payload;
-    //   const {email, password} = state.user;
-    //   const isValid = email === inputEmail && password === inputPassword;
       return { user: {...state.user, ...action.payload} }
     }
     case 'signup': {
       return { user: action.payload }
     }
     case 'logout': {
-      return { user: {} }
+      return { user: {...state.user, isLogged: false} }
     }
     default: {
       throw new Error(`Unhandled action type: ${action.type}`)
