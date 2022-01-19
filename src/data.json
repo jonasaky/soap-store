@@ -1,0 +1,68 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Narcissist",
+            "description": "Smells like Peachwood, Notes of Peaches, Raspberries, & Patchouli Sandalwood. Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Mica. ",
+            "price": 100,
+            "img": "https://images.unsplash.com/photo-1612799897476-e6e6e663f337",
+            "staticImg": "/images/Img1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Good Morning Sunshine",
+            "description": "Smells like Citrus & Sunrise, Notes of: Grapefruit, Champagne, Orange, Lemon, & Lime, Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Mica.",
+            "price": 120,
+            "img": "https://images.unsplash.com/photo-1607006633866-23506a609b94",
+            "staticImg": "/images/Img2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Island Nectar",
+            "description": "Smells like Passionfruit & Ocean Breeze, Notes of: Passionfruit, Jasmine, Citrus, & Exotic Florals, Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Mica.",
+            "price": 80,
+            "img": "https://images.unsplash.com/photo-1605264810638-4b0ef2afec79",
+            "staticImg": "/images/Img3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Ferocious",
+            "description": "Smells like: Cedarwood & Campfire Beers, Notes of: Citrus, Lavender, White Musk, Cedarwood, & Amber, Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Mica. ",
+            "price": 90,
+            "img": "https://images.unsplash.com/photo-1605264549742-f1eb016912bc",
+            "staticImg": "/images/Img4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Shea",
+            "description": "Smells like: Peachwood & Me Time, Notes of: Peaches, Raspberries, & Patchouli Sandalwood, Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Butyrospermum Parkii (Shea) Butter, Mica. ",
+            "price": 75,
+            "img": "https://images.unsplash.com/photo-1605264549237-760cf23988b9",
+            "staticImg": "/images/Img5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Magnolia",
+            "description": "Smells like: Flowers & Rocking Chairs, Notes of: Magnolia Flower, Apple, Blackberry, & Melon, Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Mica. ",
+            "price": 110,
+            "img": "https://images.unsplash.com/photo-1603533626530-f742f4a92a4f",
+            "staticImg": "/images/Img6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Love Potion",
+            "description": "Smells like: Roses & Young Love, Notes of: Damask Rose, Peach, Apple Blossom, & Italian Bergamot, Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Mica. ",
+            "price": 150,
+            "img": "https://images.unsplash.com/photo-1603533626120-2d5704173332",
+            "staticImg": "/images/Img7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Coconut",
+            "description": "Smells like: Coconut & Pina Coladas, Notes of: Coconut, Vanilla, Milk, & Cream, Ingredients: Sodium Cocoate (from Coconut Oil), Sodium Palmate (from Palm Oil), Sodium Rapeseedate (from Rapeseed Oil), Fragrance, Sodium Olivate (from Olive Oil), Butyrospermum Parkii (Shea) Butter, Mica.",
+            "price": 140,
+            "img": "https://images.unsplash.com/photo-1607006411601-775c8cc632dc",
+            "staticImg": "/images/Img8.jpg"
+        }
+    ]
+}
