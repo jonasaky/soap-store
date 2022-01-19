@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
 import data from '../../data.json';
+import './Card.css';
 
 export default function Card() {
   const { id } = useParams();
@@ -12,8 +13,8 @@ export default function Card() {
   return (
     item 
     ?
-    <div style={{ display: 'flex', margin: 25, maxWidth: 800 }}>
-        <img src={item.img} alt={item.name} style={{ marginRight: 25, maxWidth: 300, objectFit: 'cover' }} loading='lazy'/>
+    <div className='container'>
+        <img className='card-img' src={item.img} alt={item.name} style={{ marginRight: 25, maxWidth: 300, objectFit: 'cover' }} loading='lazy'/>
         <div style={{ textAlign: 'initial' }}>
           <Typography gutterBottom variant="h5" component="div">
             { item.name }

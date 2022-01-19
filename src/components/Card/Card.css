@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    margin: 25px;
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-img {
+      width: 200px;
+    }
+    .container {
+      display: inline;
+    }
+}

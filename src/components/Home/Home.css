@@ -1,0 +1,10 @@
+.box-container {
+    width: 550px;
+}
+
+@media only screen and (max-width: 600px) {
+  .box-container {
+    margin-left: 10px;
+    width: 300px;
+  }
+}
