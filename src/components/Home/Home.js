@@ -5,6 +5,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import data from '../../data.json';
 import './Home.css';
 import { useUserContext } from '../../userContext';
+import { ImageListItemBar } from '@mui/material';
 
 function Home() {
   const context = useUserContext();
@@ -19,12 +20,16 @@ function Home() {
                 {data.items.map((item) => (
                 <Link to={`/card/${item.id}`} key={item.id}>
                     <ImageListItem>
-                            <img
-                            src={`${item.img}?w=248&fit=crop&auto=format`}
-                            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                            alt={item.name}
-                            loading="lazy"
-                            />
+                      <img
+                      src={`${item.img}?w=248&fit=crop&auto=format`}
+                      srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                      alt={item.name}
+                      loading="lazy"
+                      />
+                      <ImageListItemBar
+                        title={item.name}
+                        subtitle={item.description}
+                      />
                     </ImageListItem>
                 </Link>
                 ))}
