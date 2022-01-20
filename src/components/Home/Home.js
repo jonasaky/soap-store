@@ -19,7 +19,7 @@ function Home() {
             <ImageList variant="masonry" cols={3} gap={8}>
                 {data.items.map((item) => (
                 <Link to={`/card/${item.id}`} key={item.id}>
-                    <ImageListItem>
+                    <ImageListItem className='grow'>
                       <img
                       src={`${item.img}?w=248&fit=crop&auto=format`}
                       srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
